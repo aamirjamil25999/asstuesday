@@ -1,6 +1,7 @@
 # Food Order Lifecycle (Node.js Microservices + React)
 
 Implements the assignment with 3 services + React SPA and Docker Compose.
+follow
 
 ## Services
 - **order-service (3001)**: State machine + persistence (JSON). RBAC & transitions.
