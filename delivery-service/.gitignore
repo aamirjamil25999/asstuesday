@@ -1,0 +1,23 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+.cache/
+.vite/
+
+# Env files
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Docker
+*.pid
+docker-compose.override.yml
