@@ -13,6 +13,9 @@ follow
 `PENDING → ACCEPTED → PREPARED → PICKED_UP → DELIVERED`  
 Cancellation allowed **only from PENDING**.
 
+## Clone frome git 
+git clone <repo>
+
 ## Run with Docker
 ```bash
 docker compose up --build
