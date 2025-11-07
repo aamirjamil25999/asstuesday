@@ -44,7 +44,7 @@ services:
     networks:
       - appnet
 
- # sirf frontend-react section me env badla hai:
+
   frontend-react:
     build: ./frontend-react
     container_name: frontend-react
@@ -64,7 +64,7 @@ services:
     networks:
       - appnet
 
-# ✅ Shared Docker network for service discovery
+
 networks:
   appnet:
     driver: bridge
